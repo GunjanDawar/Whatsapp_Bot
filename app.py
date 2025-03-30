@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, World! Updated message"
+    return "Hello, World! Updated newwww message"
 
 @app.route("/sms", methods=['POST']) #request coming from twilio
 def sms_reply():
